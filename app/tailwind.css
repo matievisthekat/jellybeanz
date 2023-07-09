@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Comix Loud';
+	src: local('Comix Loud'), url('/comix-loud.ttf') format('truetype'), url('/comix-loud.otf') format('opentype'),
+		url('/comix-loud.woff') format('woff'), url('/comix-loud.woff2') format('woff2');
+}
